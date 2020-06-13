@@ -6,31 +6,31 @@ $(document).keypress(function (e) {
     if (keycode == '13') {
         switch (filter) {
             case 'SQL':
-                document.location.href = "./Pages/sql.html";
+                document.location.href = "./pages/sql.html";
                 break;
             case 'HTML':
-                document.location.href = "./Pages/html.html";
+                document.location.href = "./pages/html.html";
                 break;
             case 'JS':
-                document.location.href = "./Pages/js.html";
+                document.location.href = "./pages/js.html";
                 break;
             case 'PHP':
-                document.location.href = "./Pages/php.html";
+                document.location.href = "./pages/php.html";
                 break;
             case 'JAVA':
-                document.location.href = "./Pages/java.html";
+                document.location.href = "./pages/java.html";
                 break;
             case 'PYTHON':
-                document.location.href = "./Pages/python.html";
+                document.location.href = "./pages/python.html";
                 break;
             case 'SOFTWARE':
-                document.location.href = "./Pages/soft.html";
+                document.location.href = "./pages/soft.html";
                 break;
             case 'C':
-                document.location.href = "./Pages/c.html";
+                document.location.href = "./pages/c.html";
                 break;
             case 'C++':
-                document.location.href = "./Pages/c.html";
+                document.location.href = "./pages/c.html";
                 break;
             default:
                 document.location.href = "#";
