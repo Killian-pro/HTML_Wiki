@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<!--
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>MY WIKI</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+	<link rel="stylesheet" href="./assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="./assets/css/noscript.css" /></noscript>
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+	<script src='./JS/jquery.svg3dtagcloud.min.js'></script>
+	<script src='./JS/sphere.js'></script>
+	<script src='./JS/recherche.js'></script>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		
+		<div id='holder'>
+			<input id='myInput' type="search" placeholder="Entrez un mot" name="the_search">
+		</div>
+
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="copyright">
+				<li>&copy; 2020</li>
+				<li>KIP</li>
+			</ul>
+		</footer>
+	</div>
+
+	<!-- Scripts -->
+	<script>
+		if ('addEventListener' in window) {
+			window.addEventListener('load', function () { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+			document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+		}
+	</script>
+
+</body>
+
+</html>
