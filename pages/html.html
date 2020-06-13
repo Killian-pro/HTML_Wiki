@@ -10,83 +10,81 @@
 	<noscript>
 		<link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
 	<script src='../JS/affichage.js'></script>
+	<link rel="icon" type="image/png" href="../images/html.png" />
 </head>
 
 <body class="is-preload">
 
 	<div id="wrapper">
 		<button class="backbtn" onclick="backhome()">HOME</button>
-		<div id='premier'><a onclick="masquer_div1();">variable</a>
+		<div id='premier'><a onclick="masquer_div1();">Squelette</a>
 			<div class='noob' id="1">
 				<hr>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus
-				dui.
-				Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum
-				scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet
-				elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in fringilla.
-				Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut elit suscipit,
-				id interdum neque porttitor. Integer faucibus ligula.
+				<ul>
+					<li>&#60;!DOCTYPE html&#62;</li>
+					<li>&#60;html&#62;</li>
+					<li>&#60;head&#62;</li>
+					<li>&#60;meta charset="utf-8"&#62;</li>
+					<li>&#60;title&#62;Ma first page&#60;/title&#62;</li>
+					<li>&#60;/head&#62;</li>
+					<li>&#60;body&#62;</li>
+					<li>/*tout mes données*/</li>
+					<li>&#60;/body&#62;</li>
+					<li>&#60;/html&#62;</li>
+				</ul>
 			</div>
-			<div id='second'><a onclick="masquer_div2();">fonction</a>
+			<div id='second'><a onclick="masquer_div2();">Fonctions</a>
 				<div class='noob' id="2">
 					<hr>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at,
-					luctus
-					dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl
-					bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci
-					sit amet elementum luctus
-					dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl
-					bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci
-					sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in
-					fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut
-					elit suscipit, id interdum neque porttitor. Integer faucibus ligula.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at,
-					luctus
-					dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl
-					bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci
-					sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in
-					fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut
-					elit suscipit, id interdum neque porttitor. Integer faucibus ligula.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at,
-					luctus
-					dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl
-					bibendum scelerisque non non puru. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio
-					in
-					fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut
-					elit suscipit, id interdum neque porttitor. Integer faucibus ligula.
+					<ul>
+						<li><span class=souligne>paragraphes</span> : &#60;p&#62;</li>
+						<li>
+							<p>
+						</li>
+						<li><span class=souligne>liens</span> : &#60;a href="#"&#62;PAGE&#60;/a&#62;</li>
+						<li>
+							<p>
+						</li>
+						<li><span class=souligne>titres</span> : &#60;h1&#62;,&#60;h2&#62;,&#60;h3&#62;,&#60;h4&#62;
+						</li>
+						<li>
+							<p>
+						</li>
+						<li><span class=souligne>images</span> : &#60;img src="images/image.png" width="60" height="60"
+							alt="image" /&#62;</li>
+						<li>
+							<p>
+						</li>
+						<li><span class=souligne>commentaires</span> : &#60;!-- valeur commenté --&#62;</li>
+						<li>
+					</ul>
 				</div>
 			</div>
-			<div id='tiers'><a onclick="masquer_div3();">condition</a>
+			<div id='tiers'><a onclick="masquer_div3();">Fonctions Spéciales</a>
 				<div class='noob' id="3">
 					<hr>
 					<ul>
-						<li>mash</li>
-						<li>ash</li>						
-						<li>la</li>						
-						<li></li>						
-						<li></li>						
+						<li><span class=souligne>Création d'une liste</span></li>
+						<li>&#60;ul&#62;</li>
+						<li>&#60;li&#62;premiere valeur&#60;/li&#62;</li>
+						<li>&#60;li&#62;deuxieme valeur&#60;/li&#62;</li>
+						<li>&#60;li&#62;troisieme valeur&#60;/li&#62;</li>
+						<li>&#60;/ul&#62;</li>
+						<li>
+							<p>
+						<li>
+						<li><span class=souligne>Création d'un tableau</span></li>
+						<li>&#60;table&#62;</li>
+						<li>&#60;tr&#62;</li>
+						<li>&#60;td&#62;premiere valeur&#60;/td&#62;</li>
+						<li>&#60;td&#62;deuxieme valeur&#60;/td&#62;</li>
+						<li>&#60;td&#62;troisieme valeur&#60;/td&#62;</li>
+						<li>&#60;/tr&#62;</li>
+						<li>&#60;/table&#62;</li>
+						<li>
+							<p>
+						<li>
 					</ul>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at,
-					luctus
-					dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl
-					bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci
-					sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in
-					fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut
-					elit suscipit, id interdum neque porttitor. Integer faucibus ligula.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at,
-					luctus
-					dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl
-					bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci
-					sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in
-					fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut
-					elit suscipit, id interdum neque porttitor. Integer faucibus ligula.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at,
-					luctus
-					dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl
-					bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci
-					sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in
-					fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut
-					elit suscipit, id interdum neque porttitor. Integer faucibus ligula.
 				</div>
 				<!-- <footer id="footer">
 			<ul class="copyright">

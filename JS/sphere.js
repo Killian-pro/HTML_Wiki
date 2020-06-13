@@ -10,7 +10,7 @@
                 { image: './images/jv.png', width: '60', height: '60', url: './pages/java.html', target: '_top' },
                 { image: './images/python.png', width: '50', height: '50', url: './pages/python.html', target: '_top' },
                 { image: './images/soft.png', width: '80', height: '80', url: './pages/soft.html', target: '_top' },
-                { image: './images/c.png', width: '50', height: '50', url: './pages/soft.html', target: '_top' },
+                { image: './images/c.png', width: '50', height: '50', url: './pages/c.html', target: '_top' },
             ];
 
             var settings = {

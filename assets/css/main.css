@@ -1065,12 +1065,13 @@
 }
 #premier
 {
-	margin-top: 3%;
+	margin-top: 10%;
 	position: absolute;
 	background-color: whitesmoke;
 	width: 90%;
 	text-align: center;
 	border-radius: 2em;
+	margin-bottom: 2%;
 }
 #premier > .noob
 {
@@ -1091,6 +1092,14 @@
 	margin: 5%;
 }
 .noob > ul
+{
+	list-style: none;
+}
+.softnoob
+{
+	text-transform: none;
+}
+.softnoob >ul 
 {
 	list-style: none;
 }
@@ -1116,8 +1125,20 @@
 }
 .backbtn
 {
+	margin-top:2%;
 	position: absolute;
 	background-color: whitesmoke;
 	font-family: 'Times New Roman', Times, serif;
 
+}
+.noob
+{
+	text-transform: none;
+}
+.souligne
+{
+	text-decoration : underline;
+	text-decoration-style: dotted;
+	text-transform: uppercase;
+	font-weight:bold;
 }

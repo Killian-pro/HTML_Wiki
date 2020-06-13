@@ -10,83 +10,103 @@
 	<noscript>
 		<link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
 	<script src='../JS/affichage.js'></script>
+	<link rel="icon" type="image/png" href="../images/sql.png" />
 </head>
 
 <body class="is-preload">
 
 	<div id="wrapper">
 		<button class="backbtn" onclick="backhome()">HOME</button>
-		<div id='premier'><a onclick="masquer_div1();">variable</a>
+		<div id='premier'><a onclick="masquer_div1();">Requetes</a>
 			<div class='noob' id="1">
 				<hr>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus
-				dui.
-				Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum
-				scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet
-				elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in fringilla.
-				Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut elit suscipit,
-				id interdum neque porttitor. Integer faucibus ligula.
+				<ul>
+					<li><span class=souligne>SELECT</span></li>
+					<li>SELECT * FROM Base</li>
+					<li>
+						<p>
+					</li>
+					<li><span class=souligne>UPDATE</span></li>
+					<li>UPDATE Base SET value='valeur'</li>
+					<li>
+						<p>
+					</li>
+					<li><span class=souligne>INSERT</span></li>
+					<li>INSERT INTO base (champ1, champ2 , ...) VALUES ('valeur 1', 'valeur 2', ...)</li>
+					<li>
+						<p>
+					</li>
+					<li><span class=souligne>DELETE</span></li>
+					<li>DELETE FROM base</li>
+					<li>
+						<p>
+					</li>
+				</ul>
 			</div>
-			<div id='second'><a onclick="masquer_div2();">fonction</a>
+			<div id='second'><a onclick="masquer_div2();">fonctions</a>
 				<div class='noob' id="2">
 					<hr>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at,
-					luctus
-					dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl
-					bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci
-					sit amet elementum luctus
-					dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl
-					bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci
-					sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in
-					fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut
-					elit suscipit, id interdum neque porttitor. Integer faucibus ligula.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at,
-					luctus
-					dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl
-					bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci
-					sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in
-					fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut
-					elit suscipit, id interdum neque porttitor. Integer faucibus ligula.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at,
-					luctus
-					dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl
-					bibendum scelerisque non non puru. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio
-					in
-					fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut
-					elit suscipit, id interdum neque porttitor. Integer faucibus ligula.
+					<ul>
+						<li><span class=souligne>JOIN</span></li>
+						<li>SELECT * FROM Base A INNER JOIN B ON A.key = B.key</li>
+						<li>on peut remplacer INNER par : FULL / LEFT / RIGHT</li>
+						<li>
+							<p>
+						</li>
+						<li><span class=souligne>LONGUEUR KEY</span></li>
+						<li>SELECT LENGTH('key'); ou SELECT LEN('key');</li>
+						<li>
+							<p>
+						</li>
+						<li><span class=souligne>DATE</span></li>
+						<li>SELECT GETDATE(); ou SELECT NOW();</li>
+						<li>Mois : MONTH(NOW());</li>
+						<li>Année : YEAR(NOW());</li>
+						<li>Jour : DAY(NOW());</li>
+						<li>
+							<p>
+						</li>
+						<li><span class=souligne>MAX / MIN / SUM / COUNT</span></li>
+						<li>SELECT MIN(key) FROM Base</li>
+						<li>
+							<p>
+						</li>
+					</ul>
 				</div>
 			</div>
 			<div id='tiers'><a onclick="masquer_div3();">condition</a>
 				<div class='noob' id="3">
 					<hr>
 					<ul>
-						<li>mash</li>
-						<li>ash</li>						
-						<li>la</li>						
-						<li></li>						
-						<li></li>						
+						<li><span class=souligne>WHERE</span></li>
+						<li>SELECT key FROM Base WHERE condition</li>
+						<li>
+							<p>
+						</li>
+						<li><span class=souligne>OR / AND</span></li>
+						<li>WHERE condition1 AND condition2</li>
+						<li>
+							<p>
+						</li>
+						<li><span class=souligne>IN</span></li>
+						<li>WHERE key IN ( valeur1, valeur2, valeur3, ... )</li>
+						<li>
+							<p>
+						</li>
+						<li><span class=souligne>GROUP BY / DISTINCT</span></li>
+						<li>SELECT key FROM base GROUP BY key</li>
+						<li>SELECT DISTINCT key FROM base</li>
+						<li>
+							<p>
+						</li>
+						<li><span class=souligne>ORDER BY</span></li>
+						<li>SELECT key FROM base ORDER BY key</li>
+						<li>croissant : ORDER BY key asc</li>
+						<li>decroissant : ORDER BY key desc</li>
+						<li>
+							<p>
+						</li>
 					</ul>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at,
-					luctus
-					dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl
-					bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci
-					sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in
-					fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut
-					elit suscipit, id interdum neque porttitor. Integer faucibus ligula.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at,
-					luctus
-					dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl
-					bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci
-					sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in
-					fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut
-					elit suscipit, id interdum neque porttitor. Integer faucibus ligula.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at,
-					luctus
-					dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl
-					bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci
-					sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in
-					fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut
-					elit suscipit, id interdum neque porttitor. Integer faucibus ligula.
 				</div>
 				<!-- <footer id="footer">
 			<ul class="copyright">
