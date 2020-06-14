@@ -17,77 +17,45 @@
 
 	<div id="wrapper">
 		<button class="backbtn" onclick="backhome()">HOME</button>
-		<div id='premier'><a onclick="masquer_div1();">variable</a>
+		<div id='premier'><a onclick="masquer_div1();">Entrée clavier</a>
 			<div class='noob' id="1">
-				<hr>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus
-				dui.
-				Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum
-				scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet
-				elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in fringilla.
-				Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut elit suscipit,
-				id interdum neque porttitor. Integer faucibus ligula.
+				<ul>
+					<li>import java.util.Scanner;</li>
+					<li>
+						<p>
+					</li>
+					<li>Scanner sc = new Scanner(System.in);</li>
+					<li>System.out.println("Saisir:");</li>
+					<li>String str = sc.nextLine();</li>
+					<li>// Int str &#x2192; pour un entier</li>
+					<li>System.out.println(str);</li>
+				</ul>
 			</div>
-			<div id='second'><a onclick="masquer_div2();">fonction</a>
+			<div id='second'><a onclick="masquer_div2();">Tableau</a>
 				<div class='noob' id="2">
-					<hr>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at,
-					luctus
-					dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl
-					bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci
-					sit amet elementum luctus
-					dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl
-					bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci
-					sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in
-					fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut
-					elit suscipit, id interdum neque porttitor. Integer faucibus ligula.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at,
-					luctus
-					dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl
-					bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci
-					sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in
-					fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut
-					elit suscipit, id interdum neque porttitor. Integer faucibus ligula.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at,
-					luctus
-					dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl
-					bibendum scelerisque non non puru. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio
-					in
-					fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut
-					elit suscipit, id interdum neque porttitor. Integer faucibus ligula.
+					<ul>
+						<li>int tab[] = {0,1,2,3,4,5,6,7,8,9};</li>
+						<li>double tab[] = {0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0};</li>
+						<li>char tab[] = {'a','b','c','d','e','f','g'};</li>
+						<li>String tab[] = {"chaine1", "chaine2", "chaine3" , "chaine4"};</li>
+						<li>
+							<p>
+						</li>
+						<li><span class='souligne'>Tableaux multidimensionnels</span></li>
+						<li>int tab[] = {{0,1,2,3,4,5,6,7,8,9}, {9,8,7,6,5,4,3,2,1,0}};</li>
+					</ul>
 				</div>
 			</div>
 			<div id='tiers'><a onclick="masquer_div3();">condition</a>
 				<div class='noob' id="3">
-					<hr>
 					<ul>
-						<li>mash</li>
-						<li>ash</li>						
-						<li>la</li>						
-						<li></li>						
-						<li></li>						
+						<li><span class='souligne'>Ternaire</span></li>
+						<li>int x = 10, y = 20;</li>
+						<li>int max = (x < y) ? y : x ; </li>
+						<li>
+							<p>
+						</li>
 					</ul>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at,
-					luctus
-					dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl
-					bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci
-					sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in
-					fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut
-					elit suscipit, id interdum neque porttitor. Integer faucibus ligula.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at,
-					luctus
-					dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl
-					bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci
-					sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in
-					fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut
-					elit suscipit, id interdum neque porttitor. Integer faucibus ligula.
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at,
-					luctus
-					dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl
-					bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci
-					sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in
-					fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut
-					elit suscipit, id interdum neque porttitor. Integer faucibus ligula.
 				</div>
 				<!-- <footer id="footer">
 			<ul class="copyright">
