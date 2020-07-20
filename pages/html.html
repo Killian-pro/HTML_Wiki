@@ -7,9 +7,11 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="../assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	<link rel="stylesheet" href="../assets/styles/vs2015.css" />
+	<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
 	<script src='../JS/affichage.js'></script>
+	<script src="../assets/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
 	<link rel="icon" type="image/png" href="../images/html.png" />
 </head>
 
@@ -20,43 +22,41 @@
 		<div id='premier'><a onclick="masquer_div1();">Squelette</a>
 			<div class='noob' id="1">
 				<hr>
-				<ul>
-					<li>&#60;!DOCTYPE html&#62;</li>
-					<li>&#60;html&#62;</li>
-					<li>&#60;head&#62;</li>
-					<li>&#60;meta charset="utf-8"&#62;</li>
-					<li>&#60;title&#62;Ma first page&#60;/title&#62;</li>
-					<li>&#60;/head&#62;</li>
-					<li>&#60;body&#62;</li>
-					<li>/*tout mes données*/</li>
-					<li>&#60;/body&#62;</li>
-					<li>&#60;/html&#62;</li>
-				</ul>
+					<pre><code class="html">
+						&#60;!DOCTYPE html&#62;
+						&#60;html&#62;
+						&#60;head&#62;
+						&#60;meta charset="utf-8"&#62;
+						&#60;title&#62;Ma first page&#60;/title&#62;
+						&#60;/head&#62;
+						&#60;body&#62;/*tout mes données*/&#60;/body&#62;
+						&#60;/html&#62;
+						</code></pre>
 			</div>
 			<div id='second'><a onclick="masquer_div2();">Fonctions</a>
 				<div class='noob' id="2">
 					<hr>
 					<ul>
-						<li><span class=souligne>paragraphes</span> : &#60;p&#62;</li>
-						<li>
+						<span class=souligne>paragraphes</span> : &#60;p&#62;
+						
 							<p>
-						</li>
-						<li><span class=souligne>liens</span> : &#60;a href="#"&#62;PAGE&#60;/a&#62;</li>
-						<li>
+						
+						<span class=souligne>liens</span> : &#60;a href="#"&#62;PAGE&#60;/a&#62;
+						
 							<p>
-						</li>
-						<li><span class=souligne>titres</span> : &#60;h1&#62;,&#60;h2&#62;,&#60;h3&#62;,&#60;h4&#62;
-						</li>
-						<li>
+						
+						<span class=souligne>titres</span> : &#60;h1&#62;,&#60;h2&#62;,&#60;h3&#62;,&#60;h4&#62;
+						
+						
 							<p>
-						</li>
-						<li><span class=souligne>images</span> : &#60;img src="images/image.png" width="60" height="60"
-							alt="image" /&#62;</li>
-						<li>
+						
+						<span class=souligne>images</span> : &#60;img src="images/image.png" width="60" height="60"
+							alt="image" /&#62;
+						
 							<p>
-						</li>
-						<li><span class=souligne>commentaires</span> : &#60;!-- valeur commenté --&#62;</li>
-						<li>
+						
+						<span class=souligne>commentaires</span> : &#60;!-- valeur commenté --&#62;
+						
 					</ul>
 				</div>
 			</div>
@@ -64,32 +64,32 @@
 				<div class='noob' id="3">
 					<hr>
 					<ul>
-						<li><span class=souligne>Création d'une liste</span></li>
-						<li>&#60;ul&#62;</li>
-						<li>&#60;li&#62;premiere valeur&#60;/li&#62;</li>
-						<li>&#60;li&#62;deuxieme valeur&#60;/li&#62;</li>
-						<li>&#60;li&#62;troisieme valeur&#60;/li&#62;</li>
-						<li>&#60;/ul&#62;</li>
-						<li>
+						<span class=souligne>Création d'une liste</span>
+						&#60;ul&#62;
+						&#60;li&#62;premiere valeur&#60;/li&#62;
+						&#60;li&#62;deuxieme valeur&#60;/li&#62;
+						&#60;li&#62;troisieme valeur&#60;/li&#62;
+						&#60;/ul&#62;
+						
 							<p>
-						<li>
-						<li><span class=souligne>Création d'un tableau</span></li>
-						<li>&#60;table&#62;</li>
-						<li>&#60;tr&#62;</li>
-						<li>&#60;td&#62;premiere valeur&#60;/td&#62;</li>
-						<li>&#60;td&#62;deuxieme valeur&#60;/td&#62;</li>
-						<li>&#60;td&#62;troisieme valeur&#60;/td&#62;</li>
-						<li>&#60;/tr&#62;</li>
-						<li>&#60;/table&#62;</li>
-						<li>
+						
+						<span class=souligne>Création d'un tableau</span>
+						&#60;table&#62;
+						&#60;tr&#62;
+						&#60;td&#62;premiere valeur&#60;/td&#62;
+						&#60;td&#62;deuxieme valeur&#60;/td&#62;
+						&#60;td&#62;troisieme valeur&#60;/td&#62;
+						&#60;/tr&#62;
+						&#60;/table&#62;
+						
 							<p>
-						<li>
+						
 					</ul>
 				</div>
 				<!-- <footer id="footer">
 			<ul class="copyright">
-				<li>&copy; 2020</li>
-				<li>KIP</li>
+				&copy; 2020
+				KIP
 			</ul>
 		</footer> -->
 			</div>
