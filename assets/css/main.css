@@ -124,6 +124,7 @@
 		background-size: 100px 100px, cover,				cover;
 		background-position: top left,		center center,		bottom center;
 		background-attachment: fixed,			fixed,				fixed;
+	
 	}
 
 		body:after {
@@ -148,10 +149,16 @@
 			-webkit-transition: opacity 1.75s ease-out;
 			-ms-transition: opacity 1.75s ease-out;
 			transition: opacity 1.75s ease-out;
+		
 		}
-
+	
 		body.is-preload:after {
 			opacity: 1;
+		}
+		.noob>pre {
+			display: flex;
+			flex-direction: column;
+			align-content: center;
 		}
 
 /* Type */
@@ -1076,6 +1083,10 @@
 	text-align: center;
 	border-radius: 2em;
 	margin-bottom: 2%;
+}
+#second > pre 
+{
+	margin-left: -50px;
 }
 #premier > .noob
 {
